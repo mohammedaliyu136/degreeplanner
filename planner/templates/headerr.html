@@ -1,41 +1,10 @@
+{% extends "base.html" %}
 
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDP -form</title>
-
-      <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css">
-
-
-
-  </head>
-  <body>
-<!-- Top navbar -->
- <nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href='/header/'>Academic Planner</a></h1>
-    </li>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href='/login/'>Login</a></li>
-      <li class="active"><a href='/register/'>Signup</a></li>
-    </ul>
-
-  </section>
-</nav>
+{% block base_body %}
 
  <div class="row" style="margin-top: 50px;">
    <div class="large-8 large-offset-2 columns">
-     <div class="panel callout radius">
+     <div class="panel callout radius" style="background-color: lightblue">
 
        <!-- Title -->
        <div class="row">
@@ -176,7 +145,4 @@
    </div>
  </div>
 
-<link rel="javascript" href="http://cdn.foundation5.zurb.com/foundation.js>
-
-  </body>
-</html>
+{% endblock base_body %}

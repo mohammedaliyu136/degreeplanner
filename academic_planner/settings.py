@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'planner.apps.PlannerConfig',
-    'foundation',
 ]
 
 MIDDLEWARE_CLASSES = [

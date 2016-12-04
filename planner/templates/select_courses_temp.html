@@ -1,0 +1,40 @@
+{% extends "main_base.html" %}
+
+{% block base_body %}
+
+
+
+
+<div class="row"  style="margin-top: 3cm;" >
+	<div class="large-10 large-offset-2 column">
+		<span class="label">List of all Requirement</span>
+	</div>
+</div>
+<div class="row">
+	<div class="large-10 large-offset-2 column">
+		<table style="width:80%">
+			<thead>
+			    <tr>
+			      <th width="150">Course code</th>
+			      <th width="150">Course Title</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			  <form action="" method="post">
+				  {% csrf_token %}
+
+			  {% for course in degree_req %}
+			    <tr>
+			      <td>{{ course.course_id }}</td>
+			      <td>{{ course.course_title }}</td>
+			    </tr>
+			  {% endfor %}
+				 <input type="submit" value="Plan Schedule" class="button">
+				</form>
+			</tbody>
+		</table>
+
+	</div>
+</div>
+
+{% endblock base_body %}

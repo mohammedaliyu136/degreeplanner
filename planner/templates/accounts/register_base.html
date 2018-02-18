@@ -21,32 +21,25 @@
     {# Override if you need another version of modernizr #}
     {% block foundation_modernizer %}
     <script src="{% static "foundation/js/vendor/modernizr.js" %}"></script>
-    <script src="{% static "foundation/js/foundation.js" %}"></script>
-    <script src="{% static "jss/jquery-1.8.3.js" %}"></script>
-    <script src="{% static "jss/vendor/jquery.js" %}"></script>
-    <script src="{% static "jss/vendor/jquery-ui-1.9.2.custom.js" %}"></script>
-
-    <script src="{% static "dist/sweetalert-dev.js" %}"></script>
-	<link href="{% static "dist/sweetalert.css" %}" rel="stylesheet"/>
     {% endblock foundation_modernizer %}
-
 
     {# Custom head JS #}
     {% block head_js %}{% endblock head_js %}
 </head>
-<!-- added background image-->
-<body {% block body_attr %}{% endblock body_attr %} style="background-color: #c4c4c4;">
-  <!-- Top navbar -->
-<div class="top-bar" style="background-color: ">
+<body {% block body_attr %}{% endblock body_attr %} style="background-image: url('{% static 'images/signup_template.png' %}');
+            background-repeat: no-repeat;
+            background-size: 100%;">
+     <!-- Top navbar -->
+<div class="top-bar" style="background-color: Menu">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <a href='/header/'><li class="menu-text" style="background-color: Menu; color: #0a0a0a">AUN Degree Planner</li></a>
+      <a href='/header/'><li class="menu-text" style="background-color: Menu; color: #0a0a0a">Academic Planner</li></a>
     </ul>
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li class="active" style="background-color: Menu"><a href='/profile/'>{{user.username}}</a></li>
-      <li class="active" style="background-color: Menu"><a href='/login_out/'>Logout</a></li>
+      <li class="active" style="background-color: Menu"><a href='/account/profile/'>{{user.username}}</a></li>
+      <li class="active" style="background-color: Menu"><a href='/account/login_out/'>Login</a></li>
     </ul>
   </div>
 </div>

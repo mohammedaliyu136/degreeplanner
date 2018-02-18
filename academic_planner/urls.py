@@ -20,4 +20,8 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('planner.urls')),
+    url(r'^advisor/', include("planner.advisor.urls")),
+    url(r'^account/', include("planner.accounts.urls")),
+    url(r'^student/', include("planner.students.urls")),
+
 ]

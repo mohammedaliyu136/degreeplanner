@@ -33,10 +33,18 @@ class Profile(models.Model):
 class Schedules(models.Model):
     user = models.ForeignKey(to=User, related_name="schedule", blank=True, null=True)
     course_id = models.CharField(max_length=10, null=True)
+    course_title = models.CharField(max_length=50, null=True)
     semester = models.CharField(max_length=20, null=True)
     def __str__(self):
         return self.course_id + ' - ' + self.semester
 
+class DefaultSchedules(models.Model):
+    major = models.ForeignKey(to=Major_option, related_name="major_schedule", blank=True, null=True)
+    course_id = models.CharField(max_length=10, null=True)
+    course_title = models.CharField(max_length=50, null=True)
+    semester = models.CharField(max_length=20, null=True)
+    def __str__(self):
+        return self.course_id + ' - ' + self.semester
 
 class Free_elective(models.Model):
     course_id = models.CharField(max_length=20, null=True)
@@ -47,14 +55,14 @@ class Free_elective(models.Model):
 
 
 class Courses(models.Model):
-    id = models.CharField(max_length=10, primary_key=True)
+    code = models.CharField(max_length=10, primary_key=True)
     course_title = models.CharField(max_length=50, null=True)
     course_description = models.CharField(max_length=100, null=True)
     dept_name = models.CharField(max_length=30, null=True)
     course_credit = models.IntegerField(null=True)
 
     def __str__(self):
-        return self.id + ' - ' + self.course_title
+        return self.code + ' - ' + self.course_title
 
 class Department(models.Model):
     dept_name = models.CharField(max_length=20, null=True)

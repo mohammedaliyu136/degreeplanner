@@ -50,6 +50,7 @@ function startUp(){
   function deleteRow(tablename,rid) {
    var idn = rid.rowIndex
     document.getElementById(tablename).deleteRow(idn);
+    console.log(tablename);
 }
 
 
@@ -57,16 +58,20 @@ function add_to_table(){
 	var selected_table = $('#semester :selected').text();
 
 	var selected_course_id = $('#courses :selected').text();
-	check = check_pre_req(selected_course_id,not_selected)
-	if (check == false){
-	    add_to_schedule_array(selected_table, selected_course_id);  //add to schedule array
-		console.log(schedule)  //sanity check
-		addRow(selected_table, selected_course_id);
-		not_selected=remove(not_selected,selected_course_id);
-		clear(courses);
-		populate(not_selected);}
-	else {sweetAlert("Prerequisite Error", "You need "+check, "error"); // sweetAlert external library
-	};
+	is_valid = (selected_course_id !== 'Select course');
+	if (is_valid){
+		check = check_pre_req(selected_course_id,not_selected);
+		if(check == false){
+			add_to_schedule_array(selected_table, selected_course_id);  //add to schedule array
+			console.log(schedule)  //sanity check
+			addRow(selected_table, selected_course_id);
+			not_selected=remove(not_selected,selected_course_id);
+			clear(courses);
+			populate(not_selected);
+		}else{
+			sweetAlert("Prerequisite Error", "You need "+check, "error"); // sweetAlert external library
+		}
+	}
 }
 
 function add_to_schedule_array(semester_name, course_code){
@@ -130,6 +135,12 @@ function check_pre_req(cid,arr){
 	}
 }
 
+function del_schedule(semester_id, item){
+	var index = schedule[0].indexOf(item)
+    schedule[0].splice(index, 1);
+    console.log(schedule);
+}
+
 $(document).ready(function(){
 
 	 $("#{{profile_data.0}}").on('click','.btnDelete',function(){
@@ -140,6 +151,7 @@ $(document).ready(function(){
 		restor( $item);
 
 	       $(this).closest('tr').remove();
+	       del_schedule(0, $item);
 	     });
 
 	 $("#{{profile_data.1}}").on('click','.btnDelete',function(){
@@ -148,6 +160,7 @@ $(document).ready(function(){
                        .text();         // Retrieves the text within <td>
 		restor( $item);
 		$(this).closest('tr').remove();
+		del_schedule(1, $item);
 	});
 	$("#{{profile_data.2}}").on('click','.btnDelete',function(){
 		var $item = $(this).closest("tr")   // Finds the closest row <tr>
@@ -155,6 +168,7 @@ $(document).ready(function(){
                        .text();         // Retrieves the text within <td>
 		restor( $item);
 		$(this).closest('tr').remove();
+		del_schedule(2, $item);
 	});
 	$("#{{profile_data.3}}").on('click','.btnDelete',function(){
 		var $item = $(this).closest("tr")   // Finds the closest row <tr>
@@ -162,6 +176,7 @@ $(document).ready(function(){
                        .text();         // Retrieves the text within <td>
 		restor( $item);
 		$(this).closest('tr').remove();
+		del_schedule(3, $item);
 	});
 
 });
@@ -196,7 +211,7 @@ function save(){
 		</div>
 		<div class="large-6 columns">
 			    <form id="my_form" action="" method="post">{% csrf_token %}
-					<input type="submit" class="button" value="SAVE" style="width:100%">
+					<input type="submit" class="button success" value="SAVE" style="width:100%;">
 				</form>
 
 		</div>
@@ -272,6 +287,95 @@ function save(){
 			    <tr>
 			      <th width="150"></th>
 			      <th width="300">{{profile_data.3}}</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			<thead>
+			    <tr>
+			      <th width="150">Course code</th>
+			      <th width="300">Title</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			  <tbody>
+
+		      </tbody>
+		</table>
+	</div>
+</div>
+
+<!-- mid -->
+
+<div class="row">
+	<div class="large-6 columns">
+		<table id = '{{profile_data.4}}' style="width:100%">
+			<thead style='background:lightblue'>
+			    <tr>
+			      <th width="150"></th>
+			      <th width="300">{{profile_data.4}}</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			<thead>
+			    <tr>
+			      <th width="150">Course code</th>
+			      <th width="300">Title</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			  <tbody>
+		      </tbody>
+		</table>
+	</div>
+	<div class="large-6 columns">
+		<table id = '{{profile_data.5}}' style="width:100%">
+			<thead style='background:lightblue'>
+			    <tr>
+			      <th width="150"></th>
+			      <th width="300">{{profile_data.5}}</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			<thead>
+			    <tr>
+			      <th width="150">Course code</th>
+			      <th width="300">Title</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			  <tbody>
+		      </tbody>
+		</table>
+	</div>
+</div>
+
+<div class="row">
+	<div class="large-6 columns">
+		<table id= '{{profile_data.6}}' style="width:100%" >
+			<thead style='background:lightblue'>
+			    <tr>
+			      <th width="150"></th>
+			      <th width="300">{{profile_data.6}}</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			<thead>
+			    <tr>
+			      <th width="150">Course code</th>
+			      <th width="300">Title</th>
+			      <th width="100"></th>
+			      </tr>
+			  </thead>
+			  <tbody>
+		      </tbody>
+		</table>
+	</div>
+	<div class="large-6 columns">
+		<table id='{{profile_data.7}}' style="width:100%">
+		          <thead style='background:lightblue'>
+			    <tr>
+			      <th width="150"></th>
+			      <th width="300">{{profile_data.7}}</th>
 			      <th width="100"></th>
 			      </tr>
 			  </thead>

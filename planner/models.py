@@ -7,7 +7,7 @@ class School_option(models.Model):
     description = models.CharField(max_length=300, null=True)
 
     def __str__(self):
-        return self.name + ' - ' + self.description
+        return self.name
 
 
 class Major_option(models.Model):
@@ -15,7 +15,7 @@ class Major_option(models.Model):
     description = models.CharField(max_length=300, null=True)
 
     def __str__(self):
-        return self.name + ' - ' + self.description
+        return self.name
 
 class Profile(models.Model):
     user = models.ForeignKey(to=User, related_name="profile", blank=True, null=True)

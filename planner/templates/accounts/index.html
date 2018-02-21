@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    {% load staticfiles %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{% static 'images/ashraf_l/bootstrap.css' %}" rel="stylesheet"/>
+  <script src="{% static 'images/ashraf_l/jquery.js' %}"></script>
+  <script src="{% static 'images/ashraf_l/bootstrap.js' %}"></script>
 </head>
 <body>
-<p>Accounts</p>
+{% load bootstrap %}
+<p>Login</p>
+{{loginForm|bootstrap}}
+
+<p>Signup</p>
+{{signupForm|bootstrap}}
+
+<p>Profile</p>
+{{profileForm|bootstrap}}
 </body>
 </html>

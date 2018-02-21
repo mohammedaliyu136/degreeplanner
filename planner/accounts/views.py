@@ -2,12 +2,18 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
-from planner.forms import LoginForm, UserForm
+from planner.forms import LoginForm, UserForm, Student_enroll_profile_Form
 from planner.models import Profile
 
 
 def index(request):
-    return render(request, 'accounts/index.html')
+    form = LoginForm()
+    userForm = UserForm()
+    profileForm = Student_enroll_profile_Form()
+    context = {'loginForm': form,
+               'signupForm': userForm,
+               'profileForm': profileForm}
+    return render(request, 'accounts/ashraf.html', context)
 
 
 def login_user(request):
@@ -15,6 +21,7 @@ def login_user(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
         form = LoginForm(request.POST)
+        userForm = Student_enroll_profile_Form(request.POST)
         # check whether it's valid:
         if form.is_valid():
             # process the data in form.cleaned_data as required
@@ -30,15 +37,20 @@ def login_user(request):
                 else:
                     return redirect("/student/plan/edit/")
             else:
-                return render(request, 'accounts/login.html', {'form': form})
-    # if a GET (or any other method) we'll create a blank form
-    else:
-        form = LoginForm()
+                form = LoginForm()
+                userForm = UserForm()
+                profileForm = Student_enroll_profile_Form()
+                context = {'loginForm': form,
+                           'signupForm': userForm,
+                           'profileForm': profileForm,
+                           'errors': 'Login Failed'}
+                return render(request, 'accounts/ashraf.html', context)
+                # if a GET (or any other method) we'll create a blank form
+        else:
+            redirect('/account/')
 
-    return render(request, 'accounts/ashraf.html', {'form': form})
 
-
-def register(request):
+def register2(request):
     form = UserForm(request.POST or None)
     if form.is_valid():
         user = form.save(commit=False)
@@ -59,9 +71,32 @@ def register(request):
     return render(request, 'accounts/register.html', {'form': form})
 
 
+def register(request):
+    userForm = UserForm(request.POST or None)
+    profileForm = Student_enroll_profile_Form(request.POST or None)
+    if userForm.is_valid():
+        if profileForm.is_valid():
+            user = userForm.save(commit=False)
+            id_number = userForm.cleaned_data['id_number']
+            password = userForm.cleaned_data['password']
+            user.set_password(password)
+            user.save()
+            profile = profileForm.save(commit=False)
+            profile.user = user
+            profile.save()
+            user = authenticate(username=id_number, password=password)
+            if user is not None:
+                if user.is_active:
+                    login(request, user)
+                    return redirect("/student/plan/edit/")
+
+    return HttpResponse("test")
+
+
 def logout_user(request):
     logout(request)
-    return login_user(request)
+
+    return redirect("/account/")
 
 
 def profile(request):

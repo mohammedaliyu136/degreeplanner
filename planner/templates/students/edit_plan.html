@@ -139,6 +139,15 @@ all_course = [
 ""
 ];
 </script>
+<style>
+	.btnDeletea{
+		background: red;
+		color: white;
+		padding: 7px;
+		border-radius: 5px;
+	}
+
+</style>
 
 <script src="{% static 'custom_js/all_course_data.js' %}"></script>
 <div class="container" style="">
@@ -198,7 +207,7 @@ all_course = [
 							<tr id="{{ course.course_id }}">
 								<td class="crn">{{ course.course_id }}</td>
 								<td class="title"><script>setTitle("{{ course.course_id }}");</script> </td>
-								<td><button class="btnDelete">Drop</button></td>
+								<td><button class="button alert btnDelete">Drop</button></td>
 								<script>setUnits("{{profile_data.0.1}}units","{{ course.course_id }}"); add_schedule(0, "{{ course.course_id }}");</script>
 							</tr>
 							{% endif %}

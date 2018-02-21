@@ -77,18 +77,17 @@
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       {% if check.is_advisor %}
-        <li class="menu-text" style="background-color: #0000FF; color: white"><a href='/students' style="color: white">AUN Degree Planner</a></li>
-        <li style="background-color: #0000FF;"><a href="/students/" style="color: white">Students</a></li>
+        <li class="menu-text" style="background-color: #0000FF; color: white"><a href='/advisor/students' style="color: white">AUN Degree Planner</a></li>
+        <li style="background-color: #0000FF;"><a href="/advisor/students/" style="color: white">Students</a></li>
       {% else %}
         <li class="menu-text" style="background-color: #0000FF; color: white"><a href='/plan/edit' style="color: white">AUN Degree Planner</a></li>
       {% endif %}
-      <li style="background-color: #0000FF;"><a href="/team/" style="color: white">Team</a></li>
     </ul>
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li class="active" style="background-color: #0000FF;"><a href='/profile/' style="color: white">{{user.username}}</a></li>
-      <li class="active" style="background-color: #0000FF;"><a href='/account/ashraf/' style="color: white">Logout</a></li>
+      <li class="active" style="background-color: #0000FF;"><a href='#' style="color: white">{{user.username}}</a></li>
+      <li class="active" style="background-color: #0000FF;"><a href='/account/logout/' style="color: white">Logout</a></li>
     </ul>
   </div>
 </div>

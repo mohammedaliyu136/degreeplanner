@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee00af96-4eea-4f79-9a33-6d692f429fd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
     </list>
     <ignored path="academic_planner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,6 +83,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ashraf.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/academic_planner/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planner/templates/advisor/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,7 +181,6 @@
         <option value="$PROJECT_DIR$/academic_planner/settings.py" />
         <option value="$PROJECT_DIR$/planner/templates/accounts/index.html" />
         <option value="$PROJECT_DIR$/planner/forms.py" />
-        <option value="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
         <option value="$PROJECT_DIR$/planner/accounts/views.py" />
         <option value="$PROJECT_DIR$/planner/templates/students/edit_plan.html" />
         <option value="$PROJECT_DIR$/planner/templates/advisor/main_base.html" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/academic_planner/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
+        <option value="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
       </list>
     </option>
   </component>
@@ -953,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planner/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1130,6 +1122,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
           <folding />
         </state>
       </provider>

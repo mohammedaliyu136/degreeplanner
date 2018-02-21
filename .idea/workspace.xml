@@ -2,103 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee00af96-4eea-4f79-9a33-6d692f429fd3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/animate.css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/anemone-350x350-67.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/blog-2511x1670-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/blog-2511x1670-64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/bytafont-350x350-38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/calculator-350x350-78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/chrome-remote-desktop-350x350-23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/clear-350x350-99.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/coffee-923094-1920-1920x1280-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/com-350x350-41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/discover-mobile-350x350-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/discover-mobile-350x350-53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/facebook-350x350-71.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/google-slides-350x350-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/imac-605421-1920-1920x1275-41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1032784-1920-1920x1440-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067975-1920-1920x1439-11-1920x1439-53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067975-1920-1920x1439-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067975-1920-1920x1439-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067975-1920-1920x1439-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067982-1920-1920x1439-68-1920x1439-47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067982-1920-1920x1439-68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067982-1920-1920x1439-71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067982-1920-1920x1439-90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067983-1920-1920x1440-44-1920x1440-62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067983-1920-1920x1440-44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067988-1920-1920x1440-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067991-1920-1920x1440-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067991-1920-1920x1440-38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067991-1920-1920x1440-57-1920x1440-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-1067991-1920-1920x1440-57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458150-1920-1920x1285-73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458150-1920-1920x1285-95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458151-1920-1920x1285-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458151-1920-1920x1285-67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458153-1920-1920x1285-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-6-458153-1920-1920x1285-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/iphone-926663-1920-1920x1280-94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/kindle-350x350-47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/macbook-926425-1920-1920x1279-92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/maps-350x350-26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/one-page-2509x1670-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/one-page-2509x1670-67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052021-1920-1920x1440-16-1920x1440-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052021-1920-1920x1440-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052021-1920-1920x1440-38-1920x1440-69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052021-1920-1920x1440-38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052022-1920-1920x1440-95-1920x1440-47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052022-1920-1920x1440-95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052023-1920-1920x1440-26-1920x1440-71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-1052023-1920-1920x1440-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/phone-350x350-12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/photos-350x350-95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/reminders-350x350-18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/slider-2511x1674-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/slider-2511x1674-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/video-bg-2510x1672-73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/video-bg-2510x1672-94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/workflow-350x350-59.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/images/youtube-350x350-69.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/imagesloaded/imagesloaded.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/jarallax/jarallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/jquery-mb-ytplayer/jquery.mb.YTPlayer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/masonry/masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise-gallery/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise-gallery/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise-slider/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise/css/mbr-additional.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/mobirise/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/smooth-scroll/SmoothScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/social-likes/social-likes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/css/socicon.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/fonts/socicon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/fonts/socicon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/fonts/socicon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/fonts/socicon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/assets/socicon/fonts/socicon.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/one-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Free-Bootstrap-Template-master/video-background.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
     </list>
     <ignored path="academic_planner.iws" />
@@ -163,8 +66,8 @@
       <file leaf-file-name="ashraf.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+            <state relative-caret-position="100">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -804,7 +707,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21056548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1247,8 +1150,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+        <state relative-caret-position="100">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
         </state>
       </provider>

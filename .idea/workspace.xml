@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee00af96-4eea-4f79-9a33-6d692f429fd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/fonts/glyphicons-halflings-regular.svg" />
     </list>
     <ignored path="academic_planner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,8 +110,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="184">
+              <caret line="7" column="375" selection-start-line="7" selection-start-column="336" selection-end-line="7" selection-end-column="375" />
               <folding />
             </state>
           </provider>
@@ -455,6 +456,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="degree_planner_R_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="degree_planner_R_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="academic_planner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ashraf_l" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -469,19 +500,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\project\SDP\degree_planner_R_1\academic_planner\static\images\ashraf_l" />
-      <recent name="C:\project\SDP\degree_planner_R_1\planner\templates\students" />
-      <recent name="C:\project\SDP\degree_planner_R_1\academic_planner\static\custom_js" />
-      <recent name="C:\project\SDP\degree_planner_R_1\planner\templates\advisor" />
-      <recent name="C:\project\SDP\degree_planner_R_1\planner\students" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\SDP\degree_planner_R_1\planner\templates\old" />
       <recent name="C:\project\SDP\degree_planner_R_1\planner" />
       <recent name="C:\Users\mohammed\Documents\SDP\degree_planner_R_1\planner\templates" />
       <recent name="C:\Users\mohammed\Documents\SDP\academicplanner-auth-getting-info-new-temp\academic_planner\static\images" />
       <recent name="C:\Users\mohammed\Documents\SDP\academicplanner-auth-getting-info\academic_planner\static\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\SDP\degree_planner_R_1\academic_planner\static\images\ashraf_l" />
+      <recent name="C:\project\SDP\degree_planner_R_1\planner\templates\students" />
+      <recent name="C:\project\SDP\degree_planner_R_1\academic_planner\static\custom_js" />
+      <recent name="C:\project\SDP\degree_planner_R_1\planner\templates\advisor" />
+      <recent name="C:\project\SDP\degree_planner_R_1\planner\students" />
     </key>
   </component>
   <component name="RunManager">
@@ -681,9 +712,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21056548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21056548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1123,8 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="184">
+          <caret line="7" column="375" selection-start-line="7" selection-start-column="336" selection-end-line="7" selection-end-column="375" />
           <folding />
         </state>
       </provider>

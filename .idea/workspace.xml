@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee00af96-4eea-4f79-9a33-6d692f429fd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" afterPath="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
     </list>
     <ignored path="academic_planner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,30 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main_base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planner/templates/advisor/main_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="88" column="70" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planner/templates/students/main_base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
               <caret line="82" column="95" selection-start-line="82" selection-start-column="95" selection-end-line="82" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formated_db.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formated_db.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="4422" column="14" selection-start-line="4422" selection-start-column="14" selection-end-line="4422" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -87,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -113,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -139,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/planner/templates/team_advisor.html" />
         <option value="$PROJECT_DIR$/planner/templates/advisor_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/planner2.html" />
         <option value="$PROJECT_DIR$/academic_planner/static/custom_js/all_course_data.js" />
@@ -187,9 +179,10 @@
         <option value="$PROJECT_DIR$/planner/templates/advisor/advisor_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/students/main_base.html" />
         <option value="$PROJECT_DIR$/academic_planner/urls.py" />
-        <option value="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
-        <option value="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/custom.css" />
+        <option value="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
+        <option value="$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -748,20 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../scrapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/planner/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planner/advisor/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1110,7 +1089,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1121,15 +1116,15 @@
     <entry file="file://$PROJECT_DIR$/planner/templates/accounts/ashraf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/academic_planner/static/images/ashraf_l/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>

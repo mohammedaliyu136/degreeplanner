@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee00af96-4eea-4f79-9a33-6d692f429fd3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/datadump.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic_planner/settings.py" afterPath="$PROJECT_DIR$/academic_planner/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/accounts/views.py" afterPath="$PROJECT_DIR$/planner/accounts/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/forms.py" afterPath="$PROJECT_DIR$/planner/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/models.py" afterPath="$PROJECT_DIR$/planner/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/ashraf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/accounts/index.html" afterPath="$PROJECT_DIR$/planner/templates/accounts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/advisor/advisor_base.html" afterPath="$PROJECT_DIR$/planner/templates/advisor/advisor_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/advisor/main_base.html" afterPath="$PROJECT_DIR$/planner/templates/advisor/main_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/students/edit_plan.html" afterPath="$PROJECT_DIR$/planner/templates/students/edit_plan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planner/templates/students/main_base.html" afterPath="$PROJECT_DIR$/planner/templates/students/main_base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="academic_planner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planner/templates/students/main_base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
@@ -87,26 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planner/advisor/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/planner/advisor/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-310">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planner/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,6 +89,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/academic_planner/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -153,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/planner/templates/login_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/search.html" />
         <option value="$PROJECT_DIR$/planner/templates/team_advisor.html" />
         <option value="$PROJECT_DIR$/planner/templates/advisor_base.html" />
@@ -175,7 +161,6 @@
         <option value="$PROJECT_DIR$/planner/students/__init__.py" />
         <option value="$PROJECT_DIR$/planner/templates/advisor/index.html" />
         <option value="$PROJECT_DIR$/planner/templates/students/index.html" />
-        <option value="$PROJECT_DIR$/academic_planner/urls.py" />
         <option value="$PROJECT_DIR$/planner/templates/accounts/login_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/accounts/register.html" />
         <option value="$PROJECT_DIR$/planner/templates/accounts/register_base.html" />
@@ -204,6 +189,8 @@
         <option value="$PROJECT_DIR$/planner/templates/advisor/main_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/advisor/advisor_base.html" />
         <option value="$PROJECT_DIR$/planner/templates/students/main_base.html" />
+        <option value="$PROJECT_DIR$/academic_planner/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -696,13 +683,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../heroku/degreeplanner/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../heroku_clone/complainme/complain/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -878,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academic_planner/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planner/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1007,14 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/planner/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/planner/templates/advisor/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1075,6 +1040,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="82" column="95" selection-start-line="82" selection-start-column="95" selection-end-line="82" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planner/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academic_planner/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
